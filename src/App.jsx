@@ -201,7 +201,7 @@ function AppLayout() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/TryCatch75">
       <ThemeProvider>
         <AuthProvider>
           <AppLayout />
